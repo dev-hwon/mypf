@@ -1,0 +1,114 @@
+{
+    "pflist" : [
+        {
+            "enuri" : [
+                {"id" : "enuri_1",  "label" : "project_summerce", "title" : "소개페이지(react_swipe)", "date" : "", "url" : "//dev-hwon.github.io/dhreact/", "img_url" : "", "link" : true},
+                {"id" : "enuri_1",  "label" : "project_sf", "title" : "스마트파인더(sf)", "date" : "", "url" : "", "img_url" : ""}
+            ],
+            "fuz" : [
+                {"id" : "fuz_1", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "메인페이지", "date" : "2021-04-01", "url" : "http://thehyun1.dothome.co.kr/fuz/main/index.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h1.jpg", "link" : true},
+                {"id" : "fuz_2", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "서브페이지(검색결과화면)", "date" : "2021-04-01", "url" : "http://thehyun1.dothome.co.kr/fuz/search_result/list.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h3.jpg", "link" : true},
+                {"id" : "fuz_3", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "서브페이지(노리스트)", "date" : "2021-04-01", "url" : "http://thehyun1.dothome.co.kr/fuz/search_result/nolist.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h2.jpg", "link" : true},
+                {"id" : "fuz_4", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "공통게시판 / 목록 (리스트)", "date" : "2021-04-01", "url" : "http://thehyun1.dothome.co.kr/fuz/board/default/list.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h7.jpg", "link" : true},
+                {"id" : "fuz_5", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "공통게시판 / 상세", "date" : "2021-04-01", "url" : "http://thehyun1.dothome.co.kr/fuz/board/default/view.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h10.jpg", "link" : true},
+                {"id" : "fuz_6", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "공통게시판 / 글쓰기", "date" : "2021-04-01", "url" : "http://thehyun1.dothome.co.kr/fuz/board/default/write.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h11.jpg", "link" : true},
+                {"id" : "fuz_7", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "공통게시판 / 글수정", "date" : "2021-04-01", "url" : "http://thehyun1.dothome.co.kr/fuz/board/default/modify.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h11.jpg", "link" : true},
+                {"id" : "fuz_8", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "공통게시판 / 썸네일", "date" : "2021-04-01", "url" : "http://thehyun1.dothome.co.kr/fuz/board/default/list_thumbnail_re.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h8.jpg", "link" : true},
+                {"id" : "fuz_9", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "의견보내기 레이어팝업", "date" : "2021-04-01", "url" : "http://thehyun1.dothome.co.kr/fuz/board/default/view.html", "img_url" : "", "link" : true},
+                {"id" : "fuz_10", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "파일업로드 팝업 상세 페이지", "date" : "2021-04-01", "url" : "http://thehyun1.dothome.co.kr/fuz/board/default/write.html", "img_url" : "", "link" : true},
+
+                {"id" : "fuz_11", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "디지털상담가이드 / C2 화면", "date" : "2021-04-01", "url" : "search_result2/view.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h4.jpg", "link" : false},
+                {"id" : "fuz_12", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "디지털상담가이드 / C3 화면", "date" : "2021-04-01", "url" : "search_result2/list.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h5.jpg", "link" : false},
+                {"id" : "fuz_13", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "마이룸 / 메인", "date" : "2021-04-01", "url" : "myroom/index.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h13.jpg", "link" : false},
+                {"id" : "fuz_14", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "마이룸 / 스케쥴관리", "date" : "2021-04-01", "url" : "myroom/schedule.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h15.jpg", "link" : false},
+                {"id" : "fuz_15", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "마이룸 / 팝업 - 상세", "date" : "2021-04-01", "url" : "myroom/schedule.html", "img_url" : "", "link" : false},
+                {"id" : "fuz_16", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "마이룸 / 팝업 - 수정", "date" : "2021-04-01", "url" : "myroom/schedule.html", "img_url" : "", "link" : false},
+                {"id" : "fuz_17", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "디지털상담가이드 / C1 화면", "date" : "2021-04-01", "url" : "search_result2/view_c1.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h23.jpg", "link" : false},
+                {"id" : "fuz_18", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "공통게시판 / 용어사전", "date" : "2021-04-01", "url" : "dictionary/index.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h16.jpg", "link" : false},
+                {"id" : "fuz_19", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "디지털상담가이드 / 원격시나리오지식관리 - Q1", "date" : "2021-04-01", "url" : "remote/index.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h17.jpg", "link" : false},
+                {"id" : "fuz_20", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "디지털상담가이드 / 원격시나리오지식관리 - Q2", "date" : "2021-04-01", "url" : "remote/index.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h18.jpg", "link" : false},
+                {"id" : "fuz_21", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "통계 / 메인", "date" : "2021-04-01", "url" : "static/index.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h19.jpg", "link" : false},
+                {"id" : "fuz_22", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "통계 / 활동성 통계", "date" : "2021-04-01", "url" : "static/static_activity.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h20.jpg", "link" : false},
+                {"id" : "fuz_23", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "통계 / 게시물 통계 - 분류체계별", "date" : "2021-04-01", "url" : "static/static_post.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h21.jpg", "link" : false},
+                {"id" : "fuz_24", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "통계 / 게시물 통계 - 메뉴별", "date" : "2021-04-01", "url" : "static/static_post.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h21.jpg", "link" : false},
+                {"id" : "fuz_25", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "통계 / 게시물 상세 리스트", "date" : "2021-04-01", "url" : "static/static_post_detail.html", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/fuz/h22.jpg", "link" : false},
+                {"id" : "fuz_26", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "통계 / 게시물 썸네일 리스트", "date" : "2021-04-01", "url" : "static/static_board.html", "img_url" : "", "link" : false}
+            ],
+            "off" : [
+                {"id" :"off_1", "label" : "Project_bid1", "title" : "재팬비드", "summary" : "재팬비드는 일본 경매,구매대행 전문쇼핑 서비스, 배송센터대행 및 일본 연락사무소 대행서비스, 한일간 무역대행을 진행하는 국제 특배송서비스등 해외물류를 기반으로 한 유통비지니스 전문 기업입니다.", "date" : "2017-05-05" , "url" : "japanbid.co.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/bid1.jpg", "link" : true},
+                {"id" :"off_2", "label" : "Project_bid2", "title" : "도쿄비드", "summary" : "", "date" : "2017-05-06" , "url" : "tokyobid.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/bid2.jpg", "link" : true},
+                {"id" :"off_3", "label" : "Project_bid3", "title" : "위드바이몰", "summary" : "", "date" : "2017-05-07" , "url" : "withbuymall.com", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/bid3.jpg", "link" : true},
+                {"id" :"off_4", "label" : "Project_bid4", "title" : "클라우드비드", "summary" : "", "date" : "2017-05-08" , "url" : "cloudbid.co.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/bid4.jpg", "link" : true},
+                {"id" :"off_5", "label" : "Project_bid5", "title" : "비더스", "summary" : "", "date" : "2017-05-09" , "url" : "bidders.co.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/bid5.jpg", "link" : true},
+                {"id" :"off_6", "label" : "Project_bid6", "title" : "쇼핑월드", "summary" : "", "date" : "2017-05-10" , "url" : "shoppingworld.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/bid6.jpg", "link" : true},
+                
+                {"id" :"off_7", "label" : "Project_cat1", "title" : "윈스몰", "summary" : "", "date" : "2019-05-11" , "url" : "winsmall.best", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/cat1.jpg", "link" : true},
+                {"id" :"off_8", "label" : "Project_cat2", "title" : "포스트팀", "summary" : "", "date" : "2017-05-12" , "url" : "postteam.co.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/cat2.jpg", "link" : true},
+                {"id" :"off_9", "label" : "Project_cat3", "title" : "엘덱스", "summary" : "", "date" : "2017-05-13" , "url" : "eldex.co.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/cat3.jpg", "link" : true},
+                {"id" :"off_10", "label" : "Project_cat4", "title" : "지니커머스", "summary" : "", "date" : "2017-05-14" , "url" : "geniecommerce.co.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/cat4.jpg", "link" : true},
+                {"id" :"off_11", "label" : "Project_cat5", "title" : "포스트드림", "summary" : "", "date" : "2017-05-15" , "url" : "postdream.co.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/cat5.jpg", "link" : true},
+                {"id" :"off_12", "label" : "Project_cat6", "title" : "케이유", "summary" : "", "date" : "2019-05-16" , "url" : "k-you.co.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/cat6.jpg", "link" : true},
+                
+                {"id" :"off_13", "label" : "Project_mall1", "title" : "줌마노리", "summary" : "", "date" : "2018-08-21" , "url" : "zummanori.com", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/mall1.jpg", "link" : true},
+                {"id" :"off_14", "label" : "Project_mall2", "title" : "피규어방", "summary" : "", "date" : "2017-05-18" , "url" : "figurebang.co.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/mall2.jpg", "link" : true},
+                {"id" :"off_15", "label" : "Project_mall3", "title" : "재팬비드스토어", "summary" : "", "date" : "2017-05-19" , "url" : "japanbidstore.co.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/mall3.jpg", "link" : true},
+                {"id" :"off_16", "label" : "Project_mall4", "title" : "좋아요재팬", "summary" : "", "date" : "2017-05-20" , "url" : "joayojapan.com", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/mall4.jpg", "link" : true},
+                {"id" :"off_17", "label" : "Project_mall5", "title" : "세이재팬", "summary" : "", "date" : "2017-05-21" , "url" : "sayjapan.co.kr", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/mall5.jpg", "link" : true},
+                {"id" :"off_18", "label" : "Project_mall6", "title" : "재팬스토어", "summary" : "", "date" : "2017-05-22" , "url" : "japanstore.co.jp", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/mall6.jpg", "link" : true},
+                
+                {"id" :"off_19", "label" : "Project_re_cat1", "title" : "한마켓", "summary" : "", "date" : "2020-05-23" , "url" : "shop.hanpass.com", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/re_cat1.jpg", "link" : true},
+                {"id" :"off_20", "label" : "Project_re_cat2", "title" : "케이맘", "summary" : "", "date" : "2019-01-14" , "url" : "k-mom.com", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/re_cat2.jpg", "link" : true},
+                {"id" :"off_21", "label" : "Project_re_cat3", "title" : "케이맘샵", "summary" : "", "date" : "2019-02-12" , "url" : "shop.k-mom.com", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/re_cat3.jpg", "link" : true},
+                {"id" :"off_22", "label" : "Project_re_cat4", "title" : "코박스", "summary" : "", "date" : "2019-11-01" , "url" : "ko-box.net", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/re_cat4.jpg", "link" : true},
+                {"id" :"off_23", "label" : "Project_re_cat5", "title" : "에오에오", "summary" : "", "date" : "2017-05-27" , "url" : "eoeo.co.jp", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/re_cat5.jpg", "link" : true},
+                {"id" :"off_24", "label" : "Project_re_cat6", "title" : "단짝", "summary" : "", "date" : "2017-05-28" , "url" : "danzzac.com", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/off/re_cat6.jpg", "link" : true}
+            ],
+            "vida" : [
+                {"id" :"vida_1", "label" : "vida_na", "title" : "Native AD", "summary" : "국내 자율주행차 시대", "date" : "2014" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/na/na_thumbs/na_img_01_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/na/na_img_01.jpg", "link" : false},
+                {"id" :"vida_2", "label" : "vida_na", "title" : "Native AD", "summary" : "리니지 17주년", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/na/na_thumbs/na_img_02_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/na/na_img_02.jpg", "link" : false},
+                {"id" :"vida_3", "label" : "vida_na", "title" : "Native AD", "summary" : "배트맨VS슈퍼맨", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/na/na_thumbs/na_img_03_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/na//na_img_03.jpg", "link" : false},
+                {"id" :"vida_4", "label" : "vida_na", "title" : "Native AD", "summary" : "iPadPro VS  surfacePro4", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/na/na_thumbs/na_img_04_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/na/na_img_04.jpg", "link" : false},
+                
+                {"id" :"vida_5", "label" : "vida_ds", "title" : "Digital Storytelling", "summary" : "청춘의민낯_강백수편", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_thumbs/ds_img_01_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_img_01.jpg", "link" : false},
+                {"id" :"vida_6", "label" : "vida_ds", "title" : "Digital Storytelling", "summary" : "당신의 두손가락은 몇그루의 나무를 심었나요", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_thumbs/ds_img_02_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_img_02.jpg", "link" : false},
+                {"id" :"vida_7", "label" : "vida_ds", "title" : "Digital Storytelling", "summary" : "우리 여전히 여기에 있어요", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_thumbs/ds_img_03_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_img_03.jpg", "link" : false},
+                {"id" :"vida_8", "label" : "vida_ds", "title" : "Digital Storytelling", "summary" : "서른일곱의 삶, 그는 열정을 그렸다", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_thumbs/ds_img_04_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_img_04.jpg", "link" : false},
+                {"id" :"vida_9", "label" : "vida_ds", "title" : "Digital Storytelling", "summary" : "문정희가 살아가는 세상", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_thumbs/ds_img_05_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_img_05.jpg", "link" : false},
+                {"id" :"vida_10", "label" : "vida_ds", "title" : "Digital Storytelling", "summary" : "응답하라 1990 감성발라드 오빠들이 돌아온다.", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_thumbs/ds_img_06_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_img_06.jpg", "link" : false},
+                {"id" :"vida_11", "label" : "vida_ds", "title" : "Digital Storytelling", "summary" : "임성언에겐 '장미의전쟁'뿐이라고요?", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_thumbs/ds_img_07_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_img_07.jpg", "link" : false},
+                {"id" :"vida_12", "label" : "vida_ds", "title" : "Digital Storytelling", "summary" : "디자인, '나'는 숨고 '너'를 돋보이게 하라", "date" : "2014" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_thumbs/ds_img_08_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_img_08.jpg", "link" : false},
+                {"id" :"vida_13", "label" : "vida_ds", "title" : "Digital Storytelling", "summary" : "페북스타 세번째이야기_미녀스타강사 'JINA'", "date" : "2014" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_thumbs/ds_img_09_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_img_09.jpg", "link" : false},
+                {"id" :"vida_14", "label" : "vida_ds", "title" : "Digital Storytelling", "summary" : "다양성영화 상영관 생각보다 다양하다", "date" : "2014" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_thumbs/ds_img_10_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/ds/ds_img_10.jpg", "link" : false},
+                
+                {"id" :"vida_15", "label" : "vida_vmag", "title" : "Visual magazin", "summary" : "오 나의 미친염소님", "date" : "2014" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_thumbs/vmag_img_01_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_img_01.jpg", "link" : false},
+                {"id" :"vida_16", "label" : "vida_vmag", "title" : "Visual magazin", "summary" : "Kiss Me Santa Claus", "date" : "2014" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_thumbs/vmag_img_01_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_img_02.jpg", "link" : false},
+                {"id" :"vida_17", "label" : "vida_vmag", "title" : "Visual magazin", "summary" : "세 여행자가 청춘에게", "date" : "2014" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_thumbs/vmag_img_01_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_img_03.jpg", "link" : false},
+                {"id" :"vida_18", "label" : "vida_vmag", "title" : "Visual magazin", "summary" : "어디로 가야하죠, 아저씨. 우는 개미가 처음인가요.", "date" : "2014" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_thumbs/vmag_img_01_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_img_04.jpg", "link" : false},
+                {"id" :"vida_19", "label" : "vida_vmag", "title" : "Visual magazin", "summary" : "AMY WINEHOUSE", "date" : "2014" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_thumbs/vmag_img_01_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_img_05.jpg", "link" : false},
+                {"id" :"vida_20", "label" : "vida_vmag", "title" : "Visual magazin", "summary" : "열정에 기름붓기", "date" : "2014" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_thumbs/vmag_img_02_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_img_06.jpg", "link" : false},
+                {"id" :"vida_21", "label" : "vida_vmag", "title" : "Visual magazin", "summary" : "울지마, 음악으로 안아줄게", "date" : "2014" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_thumbs/vmag_img_03_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_img_07.jpg", "link" : false},
+                {"id" :"vida_22", "label" : "vida_vmag", "title" : "Visual magazin", "summary" : "기차는 폐허로 떠나네", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_thumbs/vmag_img_04_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_img_08.jpg", "link" : false},
+                {"id" :"vida_23", "label" : "vida_vmag", "title" : "Visual magazin", "summary" : "YOU ARE MY MAP", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_thumbs/vmag_img_05_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_img_09.jpg", "link" : false},
+                {"id" :"vida_24", "label" : "vida_vmag", "title" : "Visual magazin", "summary" : "자유로운 영혼의 울림, 패션이 되다", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_thumbs/vmag_img_06_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_img_10.jpg", "link" : false},
+                {"id" :"vida_25", "label" : "vida_vmag", "title" : "Visual magazin", "summary" : "거의 모든 패딩의 역사", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_thumbs/vmag_img_07_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_img_11.jpg", "link" : false},
+                {"id" :"vida_26", "label" : "vida_vmag", "title" : "Visual magazin", "summary" : "20대 국회, 기대와 약속", "date" : "2015" , "url" : "", "img_url" : "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_thumbs/vmag_img_08_thumbs.jpg", "detailImg_url": "//thehyun1.dothome.co.kr/pf_thumbs/vida/vmag/vmag_img_12.jpg", "link" : false}
+            ]
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
