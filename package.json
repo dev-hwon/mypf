@@ -1,5 +1,5 @@
 {
-  "name": "my_pf",
+  "name": "mypf",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,7 +38,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.0.0",
-    "eslint-config-react-app": "^7.0.1"
+    "eslint": "^8.0.0"
   }
 }
