@@ -1,8 +1,6 @@
 import '../Pflist.css';
 import { useState } from 'react';
-import styled from 'styled-components'
 import { Link, useParams } from 'react-router-dom';
-import reactStringReplace from 'react-string-replace';
 import pflist from '../db/pf_list.json'
 import Modal from '../component/Modal';
 import useAsync from '../hooks/useAsync';
@@ -46,7 +44,7 @@ const Pflist = () => {
                             <div className="item__title">{list.title}</div>
                             <div className="item__summary tx_shortening_2">{list.summary}</div>
                             <div className="item__date">{list.date}</div>
-                            <div className="item__image"><img src={list.img_url} alt="" /></div>
+                            <div className="item__image"><img src={`${process.env.PUBLIC_URL}` + list.img_url} alt="" /></div>
                             <div className="item__cover">
                                 {!list.link ?
                                     <button onClick={openModal} className='common_btn btn_sm btn_default bt__detail_view' value={list.detailImg_url}>자세히보기</button> :
