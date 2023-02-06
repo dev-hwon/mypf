@@ -41,7 +41,7 @@ const Pflist = () => {
               </div>
               <div className="item__date">{list.date}</div>
               <div className="item__image">
-                <img src={list.img_url} alt="" />
+                <img src={"/mypf" + list.img_url} alt="" />
               </div>
               <div className="item__cover">
                 {!list.link ? (
