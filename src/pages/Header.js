@@ -5,7 +5,6 @@ import { Link, useParams } from "react-router-dom";
 import { useState } from "react";
 
 export default function Header(props) {
-  const params = useParams();
   let themeClick = (e) => {
     props.theme(e.target.dataset.color);
   };
@@ -44,19 +43,19 @@ export default function Header(props) {
       <nav className="my_gnb">
         <ul>
           <li>
-            <Link to="/">Main</Link>
+            <Link to="/mypf/">Main</Link>
           </li>
           <li>
-            <Link to="/Pflist/enuri">enuri.com</Link>
+            <Link to="/mypf/Pflist/enuri">enuri.com</Link>
           </li>
           <li>
-            <Link to="/Pflist/fuz">fuz</Link>
+            <Link to="/mypf/Pflist/fuz">fuz</Link>
           </li>
           <li>
-            <Link to="/Pflist/off">off</Link>
+            <Link to="/mypf/Pflist/off">off</Link>
           </li>
           <li>
-            <Link to="/Pflist/vida">visual dive</Link>
+            <Link to="/mypf/Pflist/vida">visual dive</Link>
           </li>
         </ul>
       </nav>

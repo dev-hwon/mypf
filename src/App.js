@@ -18,7 +18,6 @@ function InitPage() {
   // 모바일 시트오픈
   const handleClick = () => {
     setOpenToggle(!openToggle);
-    console.log(openToggle);
   };
   // 컬러테마
   const [theme, setTheme] = useState("dark");
@@ -58,8 +57,8 @@ function InitPage() {
         </div>
         <div className="global_right">
           <Routes>
-            <Route path="/" element={<Main></Main>} />
-            <Route path="/Pflist/:name" element={<Pflist></Pflist>} />
+            <Route path="/mypf/" element={<Main active="true"></Main>} />
+            <Route path="/mypf/Pflist/:name" element={<Pflist></Pflist>} />
             <Route path="*" element={<EmptyPage />} />
           </Routes>
         </div>

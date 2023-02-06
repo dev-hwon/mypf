@@ -2,8 +2,36 @@
     "pflist" : [
         {
             "enuri" : [
-                {"id" : "enuri_1",  "label" : "project_summerce", "title" : "소개페이지(react_swipe)", "date" : "", "url" : "//dev-hwon.github.io/dhreact/", "img_url" : "", "link" : true},
-                {"id" : "enuri_1",  "label" : "project_sf", "title" : "스마트파인더(sf)", "date" : "", "url" : "", "img_url" : ""}
+                {"id" : "enuri_1",  "label" : "project_summerce", "title" : "소개페이지(react_swipe)", "date" : "", "url" : "http://www.summerce.com/", "img_url" : "/imgs/pf_thumbs/enuri/intro.jpg", "link" : true},
+                {"id" : "enuri_2",  "label" : "project_sf", "title" : "스마트파인더(sf_pc)", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/sf_pc.jpg", "link" : true},
+                {"id" : "enuri_3",  "label" : "project_sf", "title" : "스마트파인더(sf_m)", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/sf_m.jpg", "link" : true},
+                {"id" : "enuri_4",  "label" : "mr/or", "title" : "상품리스트페이지(lp_pc)", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/lp_list_pc.jpg", "link" : true},
+                {"id" : "enuri_5",  "label" : "mr/or", "title" : "상품리스트페이지(lp_m)", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/lp_list_m.jpg", "link" : true},
+                {"id" : "enuri_6",  "label" : "project_wine", "title" : "와인 > 리스트페이지", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/wine_lp.jpg", "link" : true},
+                {"id" : "enuri_7",  "label" : "project_wine", "title" : "와인 > 상세페이지", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/wine_vip.jpg", "link" : true},
+                {"id" : "enuri_8",  "label" : "project_subscibe", "title" : "구독 > 메인(로그인 전)", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/subscribe_before_login.jpg", "link" : true},
+                {"id" : "enuri_9",  "label" : "project_subscibe", "title" : "구독 > 메인(로그인 후)", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/subscribe_after_login.jpg", "link" : true},
+                {"id" : "enuri_10",  "label" : "project_subscibe", "title" : "구독 > 리스트", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/subscribe_list.jpg", "link" : true},
+                {"id" : "enuri_11",  "label" : "project_subscibe", "title" : "구독 > 폴더관리", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/subscribe_folder.jpg", "link" : true},
+                {"id" : "enuri_12",  "label" : "project_custom_sheet", "title" : "모바일 개인화(공통) > 좌측시트", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/sheet_left.jpg", "link" : true},
+                {"id" : "enuri_13",  "label" : "mr/or", "title" : "사이트맵", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/sitemap.jpg", "link" : true},
+                {"id" : "enuri_14",  "label" : "renewal", "title" : "광고센터", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/adcenter.jpg", "link" : true},
+                {"id" : "enuri_15",  "label" : "project_mypage", "title" : "마이에누리(마이페이지)_메인", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/mypage_main.jpg", "link" : true},
+                {"id" : "enuri_16",  "label" : "project_mypage", "title" : "마이에누리(마이페이지)_e머니", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/mypage_emoney.jpg", "link" : true},
+                {"id" : "enuri_17",  "label" : "project_mypage", "title" : "마이에누리(마이페이지)_e쿠폰", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/mypage_ecoupon.jpg", "link" : true},
+                {"id" : "enuri_18",  "label" : "project_mypage", "title" : "마이에누리(마이페이지)_카드혜택", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/mypage_benefit.jpg", "link" : true},
+                {"id" : "enuri_19",  "label" : "project_mypage", "title" : "마이에누리(마이페이지)_통계", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/mypage_report.jpg", "link" : true},
+                {"id" : "enuri_20",  "label" : "project_mypage", "title" : "마이에누리(마이페이지)_e클럽", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/mypage_eclub.jpg", "link" : true},
+                {"id" : "enuri_21",  "label" : "project_mypage", "title" : "마이에누리(마이페이지)_찜상품", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/mypage_zzimGoods.jpg", "link" : true},
+                {"id" : "enuri_22",  "label" : "project_mypage", "title" : "마이에누리(마이페이지)_찜한브랜드스토어", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/mypage_zzimBrandstore.jpg", "link" : true},
+                {"id" : "enuri_23",  "label" : "project_mypage", "title" : "마이에누리(마이페이지)_최근본상품", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/mypage_recentGoods.jpg", "link" : true},
+                {"id" : "enuri_24",  "label" : "project_mypage", "title" : "마이에누리(마이페이지)_최근본카테고리", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/mypage_recentCate.jpg", "link" : true},
+                {"id" : "enuri_25",  "label" : "project_mypage", "title" : "마이에누리(마이페이지)_최근본검색어", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/mypage_recentKeyword.jpg", "link" : true},
+                {"id" : "enuri_26",  "label" : "project_mypage", "title" : "마이에누리(마이페이지)_신차견적", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/mypage_newcar.jpg", "link" : true},
+                {"id" : "enuri_27",  "label" : "project_car", "title" : "자동차_렌트", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/car_rent_pc.jpg", "link" : true},
+                {"id" : "enuri_28",  "label" : "project_car", "title" : "자동차_중고차", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/car_used_pc.jpg", "link" : true},
+                {"id" : "enuri_29",  "label" : "project_car", "title" : "자동차_내차팔기", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/car_sell_pc.jpg", "link" : true},
+                {"id" : "enuri_30",  "label" : "project_car", "title" : "자동차_견적", "date" : "", "url" : "dddddd", "img_url" : "/imgs/pf_thumbs/enuri/car_score_pc.jpg", "link" : true}
             ],
             "fuz" : [
                 {"id" : "fuz_1", "label" : "project_si", "title" : "한샘몰_관리자페이지", "summary" : "메인페이지", "date" : "2021-04-01", "url" : "//thehyun1.dothome.co.kr/fuz/main/index.html", "img_url" : "/imgs/pf_thumbs/fuz/h1.jpg", "link" : true},

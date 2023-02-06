@@ -9,13 +9,12 @@ import useAsync from "../hooks/useAsync";
 function getLists(params) {
   return pflist.pflist[0][params.name];
 }
-function viewDetailImg() {}
+
 const Pflist = () => {
   const [modalVisible, setModalVisible] = useState(false);
   const [imgUrl, setImgUrl] = useState("");
   const openModal = (e) => {
     setModalVisible(true);
-    console.log(e.target.value);
     setImgUrl(e.target.value);
   };
   const closeModal = () => {
@@ -32,7 +31,7 @@ const Pflist = () => {
     <div className="pflist">
       <ul className="col_wrap col_gap_16">
         {lists.map((list, index) => (
-          <li className="col col_xs_12 col_sm_4 col_md_3 col_lg_2" key={index}>
+          <li className="col col_xs_6 col_sm_4 col_md_3 col_lg_2" key={index}>
             <div className="list_item">
               <div className="item__label">{list.label}</div>
               <div className="item__title">{list.title}</div>
@@ -73,7 +72,7 @@ const Pflist = () => {
           maskClosable={true}
           onClose={closeModal}
         >
-          <img src={imgUrl} alt="" />
+          <img src={"/mypf" + imgUrl} alt="" />
         </Modal>
       )}
     </div>
