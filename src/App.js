@@ -62,7 +62,7 @@ function InitPage() {
             <Route path="*" element={<EmptyPage />} />
           </Routes>
         </div>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
         <div id="modal-root"></div>
       </div>
     </BrowserRouter>

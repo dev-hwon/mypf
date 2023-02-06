@@ -510,7 +510,7 @@ textarea:focus:-ms-input-placeholder {color:transparent;}
     .global_warp .global_left.active {transform: translateX(0);}
     .global_warp .global_left .btn_sheet_controll {display:block;}
     
-    .global_warp .global_right {width: 100%;}
+    .global_warp .global_right {width: 100%; min-height: 100vh;}
 }
 
 

@@ -15,3 +15,9 @@
 .welcome_box.onTransition:after { padding:20px; transform: rotate(315deg);}
 
 .welcome_box.onTransition .welcome_innerbox {opacity: 1;}
+
+@media (max-width:767px) {
+    .welcome_box.onTransition { width: 150px; height:150px; }
+    .welcome_box .welcome_title { font-size: 24px; }
+    .welcome_box .welcome_summary { font-size: 16px;  }
+}
