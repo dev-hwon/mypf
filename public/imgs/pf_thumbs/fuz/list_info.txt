@@ -1,0 +1,66 @@
+
+
+
+/imgs/pf_thumbs/fuz/h1.jpg
+/imgs/pf_thumbs/fuz/h2.jpg
+/imgs/pf_thumbs/fuz/h3.jpg
+/imgs/pf_thumbs/fuz/h4.jpg
+/imgs/pf_thumbs/fuz/h5.jpg
+/imgs/pf_thumbs/fuz/h6.jpg
+/imgs/pf_thumbs/fuz/h7.jpg
+/imgs/pf_thumbs/fuz/h8.jpg
+/imgs/pf_thumbs/fuz/h9.jpg
+/imgs/pf_thumbs/fuz/h10.jpg
+
+/imgs/pf_thumbs/fuz/h11.jpg
+/imgs/pf_thumbs/fuz/h12.jpg
+/imgs/pf_thumbs/fuz/h13.jpg
+/imgs/pf_thumbs/fuz/h14.jpg
+/imgs/pf_thumbs/fuz/h15.jpg
+/imgs/pf_thumbs/fuz/h16.jpg
+/imgs/pf_thumbs/fuz/h17.jpg
+/imgs/pf_thumbs/fuz/h18.jpg
+/imgs/pf_thumbs/fuz/h19.jpg
+/imgs/pf_thumbs/fuz/h20.jpg
+
+/imgs/pf_thumbs/fuz/h21.jpg
+/imgs/pf_thumbs/fuz/h22.jpg
+/imgs/pf_thumbs/fuz/h23.jpg
+/imgs/pf_thumbs/fuz/h24.jpg
+/imgs/pf_thumbs/fuz/h25.jpg
+/imgs/pf_thumbs/fuz/h26.jpg
+/imgs/pf_thumbs/fuz/h27.jpg
+/imgs/pf_thumbs/fuz/h28.jpg
+/imgs/pf_thumbs/fuz/h29.jpg
+/imgs/pf_thumbs/fuz/h30.jpg
+
+h12, textarea :  active,focus
+h1    "summary" : "메인페이지",              
+h3,h4    "summary" : "서브페이지(검색결과화면)",
+h2    "summary" : "서브페이지(노리스트)",
+h7    "summary" : "공통게시판/목록 (리스트)",
+h10    "summary" : "공통게시판/상세",
+h11    "summary" : "공통게시판/글쓰기",
+h12    "summary" : "공통게시판/글수정",
+h8    "summary" : "공통게시판/썸네일1",
+h9    "summary" : "공통게시판/썸네일2",
+h24    "summary" : "레이어팝업/의견보내기 ",
+h25    "summary" : "레이어팝업/파일업로드",
+
+h6    "summary" : "디지털상담가이드/C1 화면",
+h23    "summary" : "디지털상담가이드/C2 화면",
+h26    "summary" : "디지털상담가이드/C3 화면",
+h13    "summary" : "마이룸/메인",
+h14    "summary" : "마이룸/스케쥴관리(월별)",
+h15    "summary" : "마이룸/스케쥴관리(일별)",
+h27    "summary" : "마이룸/팝업 - 일정등록",
+h28    "summary" : "마이룸/팝업 - 일정상세",
+h29    "summary" : "마이룸/팝업 - 수정",
+h16    "summary" : "공통게시판/용어사전",
+h23    "summary" : "디지털상담가이드/원격시나리오지식관리 - Q1",
+h26    "summary" : "디지털상담가이드/원격시나리오지식관리 - Q2",
+h19    "summary" : "통계/메인",
+h20    "summary" : "통계/게시물 통계/시스템활동별",
+h21    "summary" : "통계/게시물 통계/게시물현황/분류체계별",
+h21    "summary" : "통계/게시물 통계/게시물현황/메뉴별",
+h22    "summary" : "통계/게시물 통계/리스트"
