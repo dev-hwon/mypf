@@ -493,11 +493,11 @@ textarea:focus:-ms-input-placeholder {color:transparent;}
 -----------------------------------------------------------------*/
 .global_warp {display:flex; flex-wrap:wrap;background-color: var(--theme-bg2);color: var(--theme-fontcolor);}
 .global_warp > div { flex:0 0 auto; } 
-.global_warp .global_left {width: 250px; min-height:100vh; padding:60px 0; background-color: var(--theme-bg1); box-shadow: 0 0 6px 0 rgba(0,0,0,.01); transition: background-color .4s; position: sticky; top: 0; left: 0; z-index: 100; }
+.global_warp .global_left {width: 250px; min-height:100vh; background-color: var(--theme-bg1); box-shadow: 0 0 6px 0 rgba(0,0,0,.01); transition: background-color .4s; position: sticky; top: 0; left: 0; z-index: 100; }
 .global_warp .global_right {width: calc(100% - 250px); min-height:100vh; padding:20px;}
 
 
-.global_left .btn_sheet_controll {display: none; position:absolute; top:0; left:100%; width: 50px; border : none; background-color: var(--theme-bg1); padding: 7px 0; box-shadow: 3px 1px 3px 0 rgba(0,0,0,.25);}
+.global_left .btn_sheet_controll {display: none; position:absolute; top:0; left:100%; width: 50px; border : none; background-color: var(--theme-bg1); padding: 7px 0; box-shadow: 3px 1px 3px 0 rgba(0,0,0,.25); transition: all .4s;}
 .global_left .btn_sheet_controll span {display: block; height: 4px; margin: 6px auto; background: var(--theme-fontcolor); width: 70%; border-radius: 2px; transition: all .4s;}
 
 .global_left.active { overflow-y: auto; overflow-x: hidden; }
