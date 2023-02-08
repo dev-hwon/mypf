@@ -16,6 +16,9 @@ export default function Main(props) {
             <br />
             반갑습니다. :)
           </div>
+          <div class="welcome_summary2">
+            본 페이지는 React.js로 제작되었습니다.
+          </div>
         </div>
       </div>
     </div>
