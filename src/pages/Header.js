@@ -46,6 +46,9 @@ export default function Header(props) {
             <Link to="/mypf/">Main</Link>
           </li>
           <li>
+            <Link to="/mypf/Pflist/medivalue">medivalue</Link>
+          </li>
+          <li>
             <Link to="/mypf/Pflist/enuri">enuri.com</Link>
           </li>
           <li>

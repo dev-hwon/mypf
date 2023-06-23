@@ -1,6 +1,14 @@
 {
     "pflist" : [
         {
+            "medivalue" : [
+                {"id" : "enuri_intro_tab1",  "label" : "mdivalue_intro", "title" : "메디밸류 소개페이지-tab1", "date" : "", "url" : "https://medivaluecorp.com/", "img_url" : "/imgs/pf_thumbs/medivalue/intro_tab1.jpg", "link" : true},
+                {"id" : "enuri_intro_tab2",  "label" : "mdivalue_intro", "title" : "메디밸류 소개페이지-tab2", "date" : "", "url" : "https://medivaluecorp.com/about", "img_url" : "/imgs/pf_thumbs/medivalue/intro_tab2.jpg", "link" : true},
+                {"id" : "enuri_intro_tab3",  "label" : "mdivalue_intro", "title" : "메디밸류 소개페이지-tab3", "date" : "", "url" : "https://medivaluecorp.com/products", "img_url" : "/imgs/pf_thumbs/medivalue/intro_tab3.jpg", "link" : true},
+
+                {"id" : "enuri_mobile_index",  "label" : "신규", "title" : "메디밸류 모바일 메인", "date" : "", "url" : "https://dev-hwon.github.io/medivalue/pages/mobile/index.html", "img_url" : "/imgs/pf_thumbs/medivalue/m_index.jpg", "link" : true},
+                
+            ],
             "enuri" : [
                 {"id" : "enuri_1",  "label" : "project_summerce", "title" : "소개페이지(react_swipe)", "date" : "", "url" : "http://www.summerce.com/", "img_url" : "/imgs/pf_thumbs/enuri/intro.jpg", "link" : true},
                 {"id" : "enuri_2",  "label" : "mr/or", "title" : "에누리 메인페이지(유지관리/보수)", "date" : "", "url" : "http://www.enuri.com/", "img_url" : "/imgs/pf_thumbs/enuri/sf_pc.jpg", "link" : true},
