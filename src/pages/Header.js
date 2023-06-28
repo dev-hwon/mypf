@@ -19,7 +19,7 @@ export default function Header(props) {
         </div>
         <div className="tx_id">DEV_HWON</div>
         <div className="tx_summary">
-          8년차 UI개발자 현원입니다.
+          9년차 UI개발자 박현원입니다.
           <br />
           반갑습니다.
         </div>
@@ -37,7 +37,7 @@ export default function Header(props) {
         </div>
         <div className="tx_callnumber">Phon : 010-8738-7473</div>
         <div className="tx_mail">
-          Mail : <a href="mailto:thehyun11@google.com">thehyun11@google.com</a>
+          Mail : <a href="mailto:thehyun11@gmail.com">thehyun11@gmail.com</a>
         </div>
       </div>
       <nav className="my_gnb">

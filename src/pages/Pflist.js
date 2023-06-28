@@ -52,13 +52,24 @@ const Pflist = () => {
                     자세히보기
                   </button>
                 ) : (
-                  <a
-                    href={list.url}
-                    target="_blank"
-                    className="common_btn btn_sm btn_default bt__detail_page"
-                  >
-                    이동
-                  </a>
+                  <>
+                    {list.detailImg_url && (
+                      <button
+                        onClick={openModal}
+                        className="common_btn btn_sm btn_default bt__detail_view"
+                        value={list.detailImg_url}
+                      >
+                        자세히보기
+                      </button>
+                    )}
+                    <a
+                      href={list.url}
+                      target="_blank"
+                      className="common_btn btn_sm btn_default bt__detail_page"
+                    >
+                      이동
+                    </a>
+                  </>
                 )}
               </div>
             </div>
