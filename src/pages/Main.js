@@ -12,7 +12,7 @@ export default function Main(props) {
         <div className="welcome_innerbox">
           <div className="welcome_title">WELCOME TO MY PORTFOLIO</div>
           <div className="welcome_summary">
-            8년차 UI개발자 박현원입니다.
+            9년차 UI개발자 박현원입니다.
             <br />
             반갑습니다. :)
           </div>
