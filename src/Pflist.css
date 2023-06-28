@@ -1,5 +1,10 @@
 @charset "utf-8";
 .pflist {}
+.pflist .tabmenu { display: flex; flex-wrap:wrap; margin-bottom:32px; }
+.pflist .tabmenu li { flex: 0 0 auto; margin-right: 4px; }
+.pflist .tabmenu li button { color: var(--theme-fontcolor); border: 1px solid var(--theme-fontcolor); background-color: transparent; line-height: 20px; border-radius: 8px; opacity: .7;}
+.pflist .tabmenu li.active button { color: #fff; border-color: var(--theme-anchor); background-color: var(--theme-anchor); opacity: 1;}
+
 .pflist ul {display: flex;}
 .pflist ul li {}
 .pflist ul li .list_item {position:relative; display: block; height:100%; padding:20px 16px; border-radius: 8px; overflow: hidden; box-shadow: var(--theme-shadow); background-color: var(--theme-bg1); transition: all .4s;}
