@@ -29,7 +29,7 @@ export default function Header(props) {
             https://github.com/dev-hwon/
           </Link>
         </div>
-        <div className="tx_link tx_shortening_1">
+        <div className="tx_link tx_shortening_1 display-none">
           BEFORE PF :
           <Link to="http://thehyun1.dothome.co.kr/" target="_brank">
             http://thehyun1.dothome.co.kr/
