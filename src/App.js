@@ -12,6 +12,8 @@ import Main from "./pages/Main";
 import { useState, useEffect } from "react";
 import EmptyPage from "./pages/EmptyPage";
 import Pflist from "./pages/Pflist";
+import Dictionary from "./pages/Dictionary";
+import AboutMe from "./pages/AboutMe";
 
 function InitPage() {
   const [openToggle, setOpenToggle] = useState(false);
@@ -58,6 +60,8 @@ function InitPage() {
         <div className="global_right">
           <Routes>
             <Route path="/mypf/" element={<Main active="true"></Main>} />
+            <Route path="/mypf/aboutme" element={<AboutMe />} />
+            <Route path="/mypf/dictionary" element={<Dictionary />} />
             <Route path="/mypf/Pflist/:name" element={<Pflist></Pflist>} />
             <Route path="*" element={<EmptyPage />} />
           </Routes>
