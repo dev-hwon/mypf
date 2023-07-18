@@ -19,7 +19,7 @@ export default function Header(props) {
         </div>
         <div className="tx_id">DEV_HWON</div>
         <div className="tx_summary">
-          9년차 UI개발자 박현원입니다.
+          8년차 UI개발자 현원입니다.
           <br />
           반갑습니다.
         </div>
@@ -29,15 +29,15 @@ export default function Header(props) {
             https://github.com/dev-hwon/
           </Link>
         </div>
-        <div className="tx_link tx_shortening_1 display-none">
+        {/* <div className="tx_link tx_shortening_1">
           BEFORE PF :
           <Link to="http://thehyun1.dothome.co.kr/" target="_brank">
             http://thehyun1.dothome.co.kr/
           </Link>
-        </div>
+        </div> */}
         <div className="tx_callnumber">Phon : 010-8738-7473</div>
         <div className="tx_mail">
-          Mail : <a href="mailto:thehyun11@gmail.com">thehyun11@gmail.com</a>
+          Mail : <a href="mailto:thehyun11@google.com">thehyun11@google.com</a>
         </div>
       </div>
       <nav className="my_gnb">
@@ -45,8 +45,11 @@ export default function Header(props) {
           <li>
             <Link to="/mypf/">Main</Link>
           </li>
+          {/* <li>
+            <Link to="/mypf/aboutme">About Me</Link>
+          </li> */}
           <li>
-            <Link to="/mypf/Pflist/medivalue">medivalue</Link>
+            <Link to="/mypf/dictionary">용어정리</Link>
           </li>
           <li>
             <Link to="/mypf/Pflist/enuri">enuri.com</Link>

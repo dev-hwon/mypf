@@ -1,0 +1,4 @@
+@charset "utf-8";
+.info_dictionary {}
+.info_dictionary dt { font-size: 16px; font-weight:bold; color: var(--theme-fontcolor); }
+.info_dictionary dd { font-size: 13px; color: var(--theme-fontcolor); opacity: .8;}
