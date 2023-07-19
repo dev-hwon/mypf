@@ -19,7 +19,7 @@ export default function Header(props) {
         </div>
         <div className="tx_id">DEV_HWON</div>
         <div className="tx_summary">
-          8년차 UI개발자 현원입니다.
+          8년차 UI개발자 박현원입니다.
           <br />
           반갑습니다.
         </div>
@@ -45,11 +45,14 @@ export default function Header(props) {
           <li>
             <Link to="/mypf/">Main</Link>
           </li>
-          {/* <li>
-            <Link to="/mypf/aboutme">About Me</Link>
-          </li> */}
           <li>
-            <Link to="/mypf/dictionary">용어정리</Link>
+            <Link to="/mypf/aboutme">About Me</Link>
+          </li>
+          <li>
+            <Link to="/mypf/dictionary">dictionary</Link>
+          </li>
+          <li>
+            <Link to="/mypf/Pflist/medivalue">medivalue</Link>
           </li>
           <li>
             <Link to="/mypf/Pflist/enuri">enuri.com</Link>

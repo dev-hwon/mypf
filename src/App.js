@@ -14,6 +14,7 @@ import EmptyPage from "./pages/EmptyPage";
 import Pflist from "./pages/Pflist";
 import Dictionary from "./pages/Dictionary";
 import AboutMe from "./pages/AboutMe";
+import Resume from "./pages/Resume";
 
 function InitPage() {
   const [openToggle, setOpenToggle] = useState(false);
@@ -61,6 +62,7 @@ function InitPage() {
           <Routes>
             <Route path="/mypf/" element={<Main active="true"></Main>} />
             <Route path="/mypf/aboutme" element={<AboutMe />} />
+            <Route path="/mypf/resume" element={<Resume />} />
             <Route path="/mypf/dictionary" element={<Dictionary />} />
             <Route path="/mypf/Pflist/:name" element={<Pflist></Pflist>} />
             <Route path="*" element={<EmptyPage />} />
