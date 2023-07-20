@@ -1,11 +1,5 @@
 import "./Common.css";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Link,
-  useParams,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, useParams } from "react-router-dom";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import Main from "./pages/Main";
@@ -15,6 +9,7 @@ import Pflist from "./pages/Pflist";
 import Dictionary from "./pages/Dictionary";
 import AboutMe from "./pages/AboutMe";
 import Resume from "./pages/Resume";
+import Myfood from "./pages/Myfood";
 
 function InitPage() {
   const [openToggle, setOpenToggle] = useState(false);
@@ -47,11 +42,7 @@ function InitPage() {
     <BrowserRouter>
       <div className={`global_warp ` + theme + (isMobile ? " isMobile" : "")}>
         <div className={"global_left" + (openToggle ? " active" : "")}>
-          <button
-            type="button"
-            className="btn_sheet_controll"
-            onClick={handleClick}
-          >
+          <button type="button" className="btn_sheet_controll" onClick={handleClick}>
             <span></span>
             <span></span>
             <span></span>
@@ -63,6 +54,7 @@ function InitPage() {
             <Route path="/mypf/" element={<Main active="true"></Main>} />
             <Route path="/mypf/aboutme" element={<AboutMe />} />
             <Route path="/mypf/resume" element={<Resume />} />
+            <Route path="/mypf/myfood" element={<Myfood />} />
             <Route path="/mypf/dictionary" element={<Dictionary />} />
             <Route path="/mypf/Pflist/:name" element={<Pflist></Pflist>} />
             <Route path="*" element={<EmptyPage />} />
