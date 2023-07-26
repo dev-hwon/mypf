@@ -11,7 +11,7 @@
                     "working_time":"-",
                     "phon": "051-467-0177",
                     "main_food": "만두",
-                    "desc" : ""
+                    "desc" : "-"
                 }
             ],
             "busan" : [
@@ -24,7 +24,7 @@
                     "working_time":"-",
                     "phon": "051-467-0177",
                     "main_food": "만두",
-                    "desc" : ""
+                    "desc" : "-"
                 },
                 {
                     "local": "동구",
@@ -46,7 +46,7 @@
                     "working_time":"-",
                     "phon": "051-257-3352",
                     "main_food": "곱창",
-                    "desc" : ""
+                    "desc" : "-"
                 },
                 {
                     "local": "동구",
@@ -57,7 +57,7 @@
                     "working_time":"-",
                     "phon": "051-468-4059",
                     "main_food": "만두",
-                    "desc" : ""
+                    "desc" : "-"
                 },
                 {
                     "local": "해운대구",

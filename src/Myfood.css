@@ -1,0 +1,14 @@
+@charset "utf-8";
+.tx_top_notice {font-size: 24px; font-weight:bold; color: var(--theme-fontcolor); padding-top: 16px; margin:0 0 16px;}
+.foodshop_list {}
+.foodshop_list .inner_wrap { padding: 16px; box-shadow: var(--theme-shadow); border-radius: 8px;}
+.foodshop_list .inner_wrap:hover { box-shadow: var(--theme-shadow-hover); }
+.foodshop_list .d_local { font-size: 13px; opacity: .8; }
+.foodshop_list .d_name { font-size: 18px; font-weight:bold; }
+.foodshop_list .d_food_type { font-size: 14px; margin-top:8px; color: var(--bs-cyan); }
+.foodshop_list .d_address { font-size: 14px; opacity: .8; margin-top:8px; }
+.foodshop_list .d_address_old { font-size: 14px; opacity: .8; margin-top:8px; }
+.foodshop_list .d_working_time { font-size: 14px; opacity: .8;}
+.foodshop_list .d_phon { font-size: 14px; opacity: .8; margin-top:8px; }
+.foodshop_list .d_main_food { font-size: 14px; padding-bottom:8px; margin-top:8px; color:var(--bs-teal); border-bottom: 1px dashed var(--theme-fontcolor);}
+.foodshop_list .d_desc { font-size: 14px; opacity: .8; margin-top:8px; padding:8px;  background-color: rgba(0,0,0,.4); border-radius: 6px; }
