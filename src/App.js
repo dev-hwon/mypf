@@ -9,7 +9,7 @@ import Pflist from "./pages/Pflist";
 import Dictionary from "./pages/Dictionary";
 import AboutMe from "./pages/AboutMe";
 import Resume from "./pages/Resume";
-import Myfood from "./pages/myfood";
+import Myfood from "./pages/Myfood";
 
 function InitPage() {
   const [openToggle, setOpenToggle] = useState(false);
