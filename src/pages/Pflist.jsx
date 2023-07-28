@@ -35,26 +35,24 @@ const Pflist = () => {
     <div className="pflist">
       <ul className="tabmenu">
         <li className={`${selectedLabel === "all" ? "active" : ""}`}>
-          <button
-            type="button"
-            onClick={() => handleClickFilter("all")}
-            className="common_btn btn_md"
-          >
+          <button type="button" onClick={() => handleClickFilter("all")} className="common_btn btn_md">
             전체
           </button>
         </li>
         {filteredLabel.map((d, idx) => (
           <li key={idx} className={`${selectedLabel === d ? "active" : ""}`}>
-            <button
-              type="button"
-              className="common_btn btn_md"
-              onClick={() => handleClickFilter(d)}
-            >
+            <button type="button" className="common_btn btn_md" onClick={() => handleClickFilter(d)}>
               {d}
             </button>
           </li>
         ))}
       </ul>
+      {params.name === "medivalue" && (
+        <div className="mb40">
+          클리닉(next.js) : <Link to="https://medi-pearl.vercel.app/">https://medi-pearl.vercel.app/</Link>
+        </div>
+      )}
+
       <ul className="col_wrap col_gap_16">
         {lists.map((list, idx) => (
           <Pflists key={idx} list={list} selectedLabel={selectedLabel} />
@@ -76,15 +74,7 @@ const Pflists = ({ list, selectedLabel }) => {
     setModalVisible(false);
   };
   return (
-    <li
-      className={`col col_xs_6 col_sm_4 col_md_3 col_lg_2 ${
-        selectedLabel !== "all"
-          ? selectedLabel !== list.label
-            ? "card_hidden"
-            : ""
-          : ""
-      }`}
-    >
+    <li className={`col col_xs_6 col_sm_4 col_md_3 col_lg_2 ${selectedLabel !== "all" ? (selectedLabel !== list.label ? "card_hidden" : "") : ""}`}>
       <div className="list_item">
         <div className="item__label">{list.label}</div>
         <div className="item__title">{list.title}</div>
@@ -95,31 +85,18 @@ const Pflists = ({ list, selectedLabel }) => {
         </div>
         <div className="item__cover">
           {!list.link ? (
-            <button
-              onClick={openModal}
-              className="common_btn btn_sm btn_default bt__detail_view"
-              value={list.detailImg_url}
-            >
+            <button onClick={openModal} className="common_btn btn_sm btn_default bt__detail_view" value={list.detailImg_url}>
               자세히보기
             </button>
           ) : (
-            <a
-              href={list.url}
-              target="_blank"
-              className="common_btn btn_sm btn_default bt__detail_page"
-            >
+            <a href={list.url} target="_blank" className="common_btn btn_sm btn_default bt__detail_page">
               이동
             </a>
           )}
         </div>
       </div>
       {modalVisible && (
-        <Modal
-          visible={modalVisible}
-          closable={true}
-          maskClosable={true}
-          onClose={closeModal}
-        >
+        <Modal visible={modalVisible} closable={true} maskClosable={true} onClose={closeModal}>
           <img src={"/mypf" + imgUrl} alt="" />
         </Modal>
       )}
