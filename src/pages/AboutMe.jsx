@@ -2,6 +2,7 @@ import React from "react";
 import pflist from "../db/pf_list.json";
 import useAsync from "../hooks/useAsync";
 import "../AboutMe.css";
+import { Link } from "react-router-dom";
 
 function getLists() {
   return pflist.pflist[0];
@@ -22,20 +23,17 @@ export default function AboutMe() {
             <div className="his_content">
               <div className="tx_use">
                 <p>[사용언어/툴]</p>
-                jsp, html, css, javascript, jquery, photoshop, XD, svn,
-                react.js(next)
+                jsp, html, css, javascript, jquery, photoshop, XD, svn, react.js(next)
               </div>
               <h3>페이지제작</h3>
               <div className="tx_detail">
                 mobile 페이지 제작, 반응형 리뉴얼
                 <br />
-                react(next.js) - 클리닉관리페이지 제작
+                react(next.js) - 클리닉관리페이지 제작 <Link to="https://medi-pearl.vercel.app/">https://medi-pearl.vercel.app/</Link>
               </div>
 
               <h3>사이트관리 + 신규페이지제작</h3>
-              <div className="tx_detail">
-                스토어페이지 유지/보수, 프로모션페이지 제작
-              </div>
+              <div className="tx_detail">스토어페이지 유지/보수, 프로모션페이지 제작</div>
             </div>
             <div className="his_relate_img">
               <ul>
@@ -60,23 +58,15 @@ export default function AboutMe() {
             <div className="his_content">
               <div className="tx_use">
                 <p>[사용언어/툴]</p>
-                html, css, javascript, jquery, photoshop, XD, zeplin, figma,
-                react.js(next.js), git, github, sourcetree, bitbucket,
-                taskworld, redmine, slack
+                html, css, javascript, jquery, photoshop, XD, zeplin, figma, react.js(next.js), git, github, sourcetree, bitbucket, taskworld, redmine, slack
               </div>
               <h3>코어 및 서브페이지 관리</h3>
-              <div className="tx_detail">
-                페이지 유지/보수, 코드 리팩토링, 레거시 코드제거(클린징), 오류
-                점검/수정, 코드리뷰
-              </div>
+              <div className="tx_detail">페이지 유지/보수, 코드 리팩토링, 레거시 코드제거(클린징), 오류 점검/수정, 코드리뷰</div>
               <h3>팀프로젝트 관리</h3>
               <div className="tx_detail">팀 일정관리, 신입교육</div>
 
               <h3>개인프로젝트</h3>
-              <div className="tx_detail">
-                react(next.js) - 관리자 리뉴얼 react - 써머스플랫폼 소개페이지
-                리뉴얼
-              </div>
+              <div className="tx_detail">react(next.js) - 관리자 리뉴얼 react - 써머스플랫폼 소개페이지 리뉴얼</div>
             </div>
             <div className="his_relate_img">
               <ul>
@@ -130,23 +120,16 @@ export default function AboutMe() {
             <div className="his_content">
               <div className="tx_use">
                 <p>[사용언어/툴]</p>
-                php, html, css, javascript, jquery, photoshop, mySQL, slack,
-                jira
+                php, html, css, javascript, jquery, photoshop, mySQL, slack, jira
               </div>
               <h3>해외경매, 배송,구매대행 사이트 제작,리뉴얼</h3>
-              <div className="tx_detail">
-                약 80여개 사이트를 제작,리뉴얼 진행/약 150개 사이트 관리
-              </div>
+              <div className="tx_detail">약 80여개 사이트를 제작,리뉴얼 진행/약 150개 사이트 관리</div>
               <h3>구매/배송대행 솔루션(템플릿) 작업</h3>
-              <div className="tx_detail">
-                기능 컴포넌트화, 리팩토링 작업), 페이지제작
-              </div>
+              <div className="tx_detail">기능 컴포넌트화, 리팩토링 작업), 페이지제작</div>
               <h3>하이브리드 앱작업</h3>
               <div className="tx_detail">페이지구축, 동적이벤트 구현</div>
               <h3>해외클라이언트 관리(cs)</h3>
-              <div className="tx_detail">
-                cs업무/교육( 내부솔루션 사용교육 )
-              </div>
+              <div className="tx_detail">cs업무/교육( 내부솔루션 사용교육 )</div>
             </div>
             <div className="his_relate_img">
               <ul>
@@ -178,8 +161,7 @@ export default function AboutMe() {
               <div className="tx_detail">
                 빅데이터에 기반한 데이터 시각화 작업
                 <br />
-                뉴스,보도자료,블로그 등 다양한 내용을 스토리텔링 형태로 풀어냄
-                (페이지구축)
+                뉴스,보도자료,블로그 등 다양한 내용을 스토리텔링 형태로 풀어냄 (페이지구축)
                 <br />
                 회사 내 솔루션인(핑거프레스)를 활용하여 페이지 제작
               </div>
@@ -201,10 +183,7 @@ export default function AboutMe() {
           </li>
         </ul>
         <div className="pf_url">
-          포트 폴리오 :{" "}
-          <a href="https://dev-hwon.github.io/mypf/">
-            https://dev-hwon.github.io/mypf/
-          </a>
+          포트 폴리오 : <a href="https://dev-hwon.github.io/mypf/">https://dev-hwon.github.io/mypf/</a>
         </div>
       </div>
     </>

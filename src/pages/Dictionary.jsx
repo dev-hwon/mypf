@@ -5,6 +5,379 @@ export default function Dictionary() {
   return (
     <>
       <dl className="info_dictionary">
+        <dt>태그풀네임</dt>
+        <dd>
+          <table className="table-default">
+            <tbody>
+              <tr>
+                <td>
+                  <span>
+                    <b>HTML Tag</b>
+                  </span>
+                </td>
+                <td>
+                  <span>
+                    <b>Full Name</b>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>a (href)</b>
+                  </span>
+                </td>
+                <td>
+                  <span>
+                    Anchor (<span>Hypertext Refernce</span>)
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>iframe</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>
+                    <span>Inline&nbsp;Frame</span>&nbsp;
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>div</b>
+                  </span>
+                </td>
+                <td>
+                  <span>Division</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>p</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Paragraph</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>h1~h6</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>header1~header6</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>sub</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>
+                    <span>subscript</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>sup</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>
+                    <span>superscript</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>img (src)</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>
+                    Image (S<span>ource</span>)
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>br</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Break</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>hr</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>
+                    <span>horizontal rule</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>embed</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Embed</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>i</b>
+                  </span>
+                </td>
+                <td>
+                  <span>Italic</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>b</b>
+                  </span>
+                </td>
+                <td>
+                  <span>Bold</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>u</b>
+                  </span>
+                </td>
+                <td>
+                  <span>Underline</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>id</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Identification</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>px</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Pixel</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>pt</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Point</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>tr</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Table Row</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>th</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Table header</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>td</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Table Data</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>col</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Column</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>ul</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Unordered Lists</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>ol</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Ordered List</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>li</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Listed Item</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>dl</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Definition List</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>dt</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>
+                    <span>Definition List</span>&nbsp;term
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>dd</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>
+                    <span>Definition List</span>&nbsp;definition
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>pre</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Preformatted text</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>
+                    <b>
+                      <span>&amp;nbsp;</span>
+                    </b>
+                  </span>
+                </td>
+                <td>
+                  <span>Non Breaking Spaces</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </dd>
         <dt>시멘틱마크업</dt>
         <dd>
           <div className="tx_desc">
@@ -82,6 +455,24 @@ export default function Dictionary() {
               <li>서버 렌더링에 따른 부하</li>
               <li>모바일 앱 개발시 추가적인 백엔드 작업 필요 (생산성)</li>
               <li>개발이 복잡해질 수 있다</li>
+            </ul>
+          </div>
+        </dd>
+        {/* ========================================================================================  */}
+
+        {/* ========================================================================================  */}
+        <dt>리액트작동</dt>
+        <dd>
+          <div className="tx_desc">
+            <ul>
+              <li>초기설정 : 프로젝스생성, 필요한 종속성 설치등등... </li>
+              <li>컴포넌트구조설계</li>
+              <li>루트컴포넌트 렌더링 - 실제DOM 요소에 부착</li>
+              <li>컴포넌트렌더링 : 가상돔 사용하여 상태,속성에 따라 뷰 생성</li>
+              <li>실제 DOM 업데이트</li>
+              <li>이벤트처리 : 이벤트발생하면 핸들러 호출하여 상태변경이 일어나면 상태업데이트되고 재렌더링되며 해당컴포넌트와 하위컴포넌트가 재렌더링됨</li>
+              <li>이떄 가상돔과 비교하여 변경된 부분만 반영</li>
+              <li>애플리케이션 동작</li>
             </ul>
           </div>
         </dd>
@@ -182,6 +573,10 @@ export default function Dictionary() {
         </dd>
 
         {/* ========================================================================================  */}
+        <dt>DOM</dt>
+        <dd>
+          <div className="tx_desc">html string을 파싱하여 구조화한 상태라고 볼수있음..</div>
+        </dd>
         <dt>가상돔(Virtual Dom)</dt>
         <dd>
           <div className="tx_desc">
