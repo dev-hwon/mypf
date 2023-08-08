@@ -1,0 +1,52 @@
+project-root/
+├─ src/
+│   ├─ assets/
+│   │   ├─ images/
+│   │   └─ styles/
+│   │       └─ main.css
+│   ├─ components/
+│   │   ├─ common/
+│   │   │   ├─ Header.vue
+│   │   │   └─ Footer.vue
+│   │   ├─ user/
+│   │   │   ├─ UserProfile.vue
+│   │   │   └─ UserList.vue
+│   │   └─ ...
+│   ├─ views/
+│   │   ├─ Home.vue
+│   │   ├─ About.vue
+│   │   └─ ...
+│   ├─ layouts/
+│   │   ├─ DefaultLayout.vue
+│   │   └─ ...
+│   ├─ store/
+│   │   ├─ modules/
+│   │   │   ├─ user.js
+│   │   │   └─ cart.js
+│   │   ├─ index.js
+│   │   └─ ...
+│   ├─ router/
+│   │   ├─ index.js
+│   │   └─ ...
+│   ├─ plugins/
+│   │   ├─ axios.js
+│   │   └─ ...
+│   └─ utils/
+│       ├─ helpers.js
+│       └─ ...
+├─ config/
+│   ├─ env.js
+│   └─ webpack.config.js
+├─ public/
+│   ├─ index.html
+│   └─ ...
+├─ tests/
+│   ├─ unit/
+│   │   ├─ Header.spec.js
+│   │   └─ ...
+│   ├─ e2e/
+│   │   ├─ test.spec.js
+│   │   └─ ...
+├─ node_modules/
+├─ package.json
+└─ ...
